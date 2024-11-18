@@ -3,6 +3,13 @@
  * @license Apache-2.0
  */
 
+
+/**
+ * Components
+ */
+import { ButtonPrimary, ButtonOutline } from "./Button";
+
+
 const Hero = () => {
   return (
     <section 
@@ -37,9 +44,16 @@ const Hero = () => {
                     Building Scalable Modern Websites For The Future
                 </h2>
                 <div className="flex items-center gap-3">
-                    ButtonPrimary
+                    <ButtonPrimary 
+                    label="Download CV"
+                    icon = "download"
+                    /> 
 
-                    ButtonOutline
+                    <ButtonOutline 
+                    href = "#about"
+                    label = "Scroll down"
+                    icon = "arrow_downward"
+                    />
                 </div>
             </div>
             
