@@ -24,7 +24,7 @@ const Hero = () => {
 
                     <figure className="img-box w-9 h-9 rounded-lg">
                         <img 
-                        src="/images/avatar-1.jpg"
+                        src="/images/elmo burning.jpeg"
                         width = {40}
                         height = {40} 
                         alt="Syon Chau portrait"
