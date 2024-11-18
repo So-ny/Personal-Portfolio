@@ -4,6 +4,9 @@
  */
 
 
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
+
 /**
  * Components
  */
@@ -11,6 +14,26 @@ import { ButtonPrimary, ButtonOutline } from "./Button";
 
 
 const Hero = () => {
+    const typedElement = useRef(null); // Ref for the element to type into
+
+    useEffect(() => {
+      const options = {
+        strings: [
+          "Building Scalable Modern Websites For The Future",
+          "Creating Responsive and Interactive Designs",
+          "Developing Efficient Web Applications",
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+      };
+  
+      const typed = new Typed(typedElement.current, options);
+  
+      return () => {
+        typed.destroy(); // Cleanup on component unmount
+      };
+    }, []);
   return (
     <section 
     id = "home"
@@ -41,7 +64,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                    Building Scalable Modern Websites For The Future
+                    <span ref={typedElement}></span>
                 </h2>
                 <div className="flex items-center gap-3">
                     <ButtonPrimary 
