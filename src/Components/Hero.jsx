@@ -23,7 +23,7 @@ const Hero = () => {
           "Creating Responsive and Interactive Designs",
           "Developing Efficient Web Applications",
         ],
-        typeSpeed: 50,
+        typeSpeed: 20,
         backSpeed: 30,
         loop: true,
       };
