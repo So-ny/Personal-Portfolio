@@ -49,7 +49,7 @@ const works = [
 
 const Work = () => {
   return (
-    <section id = "work" className="">
+    <section id = "work" className="section">
         <div className="container">
             <h2 className="headline-2 mb-8">
                 My portfolio higlhights
@@ -57,10 +57,10 @@ const Work = () => {
             <div className="">
                 {works.map(({ imgSrc, title, tags, projectLink },key)=>(
                     <ProjectCard 
-                        key = {key}
-                        imgSrc = {imgSrc}
-                        title = {title}
-                        tags = {tags}
+                        key={key}
+                        imgSrc={imgSrc}
+                        title={title}
+                        tags={tags}
                         projectLink={projectLink}
                     />
                 ))}
