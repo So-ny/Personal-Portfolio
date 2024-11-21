@@ -14,6 +14,7 @@ import About from "./Components/About";
 import Skill from "./Components/Skill";
 import Work from "./Components/Work";
 import Review from "./Components/Review";
+import Contact from "./Components/Contact";
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
                 <Skill />
                 <Work />
                 <Review />
+                <Contact />
             </main>
         </>
     )
