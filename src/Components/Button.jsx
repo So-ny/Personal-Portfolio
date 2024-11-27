@@ -19,6 +19,7 @@ const ButtonPrimary = ({
     target = "_self",
     label,
     icon,
+    download,
     classes
 }) => {
     if(href){
@@ -26,6 +27,7 @@ const ButtonPrimary = ({
             <a 
             href = {href}
             target = {target}
+            download={download}
             className= {"btn btn-primary " + classes}
             >
                 {label}

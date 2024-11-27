@@ -22,7 +22,7 @@ const About = () => {
     className="section"
     >
         <div className="container">
-            <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
+            <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
                 <p className="text-zinc-300 md:mb-8 md:text-xl md:max-w-[60ch]">
                 Welcome! I&apos;m Syon, a professional web developer with a knack 
                 for crafting visually stunning and highly functional websites. 
