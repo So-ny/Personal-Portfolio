@@ -26,19 +26,19 @@ const skillItem = [
       desc: 'Interaction'
     },
     {
-      imgSrc: '/images/nodejs.svg',
-      label: 'NodeJS',
-      desc: 'Web Server'
+      imgSrc: '/images/python.svg',
+      label: 'Python',
+      desc: 'Coding Language'
     },
     {
-      imgSrc: '/images/expressjs.svg',
-      label: 'ExpressJS',
-      desc: 'Node Framework'
+      imgSrc: '/images/cpp.svg',
+      label: 'C++',
+      desc: 'Coding Language'
     },
     {
-      imgSrc: '/images/mongodb.svg',
-      label: 'MongoDB',
-      desc: 'Database'
+      imgSrc: '/images/java.svg',
+      label: 'Java',
+      desc: 'Coding Language'
     },
     {
       imgSrc: '/images/react.svg',
