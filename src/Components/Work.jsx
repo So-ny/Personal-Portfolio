@@ -10,17 +10,17 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
-      tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      imgSrc: '/images/space-invaders.png',
+      title: 'Space Invaders',
+      tags: ['API', 'Python', 'Development'],
+      projectLink: 'https://github.com/So-ny/AlienInvasion'
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
-      tags: ['API', 'SPA'],
-      projectLink: 'https://pixstock-official.vercel.app/'
-    },
+      imgSrc: '/images/nawanai-ex.jpg',
+      title: 'Nawanai',
+      tags: ['API', 'Unity', 'C#'],
+      projectLink: 'https://github.com/So-ny/Nawanai'
+    },/** 
     {
       imgSrc: '/images/project-3.jpg',
       title: 'Recipe app',
@@ -44,7 +44,7 @@ const works = [
       title: 'vCard Personal portfolio',
       tags: ['Web-design', 'Development'],
       projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
-    },
+    },*/
   ];
 
 const Work = () => {

@@ -87,11 +87,11 @@ const Hero = () => {
                 <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25%
                 via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
                     <img 
-                    src="/images/hero-banner.png"
-                    width = {656}
-                    height = {800} 
+                    src="/images/professional-img.png"
+                    width = {416}
+                    height = {600} 
                     alt="Syon Chau"
-                    className="w-full" 
+                    className="relative w-full h-full translate-y-[20px]" 
                     />
                 </figure>
             </div>
